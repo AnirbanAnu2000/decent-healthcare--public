@@ -1,0 +1,25 @@
+.footer {
+  padding: 50px 0;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/decent-healthcare/footer-bg.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+
+.footer ul{
+  list-style: none;
+  margin: 0;
+}
+
+.footer ul li{
+  padding: 0;
+}
+
+@media only screen and (max-width:640px) {
+  .footer {
+    padding: 8px;
+  }
+  .footer h2 {
+    margin-top: 30px;
+  }
+
+}

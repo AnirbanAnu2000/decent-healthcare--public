@@ -1,0 +1,48 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Italianno&display=swap');
+
+/* 
+font-family: 'David Libre', serif; for paragraph, button & others
+font-family: 'Italianno', cursive; for heading
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+/* font-family: 'Oxygen Mono', monospace; */
+
+/* bootstrap css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  font-family: 'Oxygen Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Italianno', cursive;
+}
+
+.brand-bg {
+  background-color: #0078a6;
+}
+
+.brand-color {
+  color: #0078a6;
+}
+
+/* above are common css */
+
+/* responsive media query */
+
+@media only screen and (max-width:640px) {
+  .navbar-link{
+      margin-bottom: 15px;
+      text-align: center;
+  }
+
+}
+

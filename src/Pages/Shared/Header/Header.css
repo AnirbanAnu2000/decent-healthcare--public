@@ -1,0 +1,23 @@
+.navbar-link {
+  display: inline-block;
+  padding: 5px 20px;
+  margin-left: 10px;
+  text-decoration: none; 
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+  transition: all ease 0.5s;
+  border-radius: 4px;
+}
+
+.navbar-link:hover {
+  color: #0078a6;
+  box-shadow: 7px 7px 5px 0px #ccc;
+}
+
+.brand-logo span {
+  color: #0078a6;
+  font-family: 'Italianno', cursive;
+  font-size: 32px;
+  font-weight: 700;
+}
